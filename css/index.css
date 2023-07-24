@@ -1,0 +1,61 @@
+:root{
+    --color-black: #1c1e21;
+    --color-white: #f5f5f5;
+    --color-hashtags: #e0f1ff;
+    --color-grey: #a8a8a8;
+    --color-blue: #0095f6;
+
+    --color-txt-notices: #737373;
+    
+    --font-12: 12px;
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-icon: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: var(--color-black);
+}
+
+i{
+    color: var(--color-white);
+}
+
+.fa{
+    font-size: var(--font-icon);
+}
+
+/* ==================== LEFT TOP ICON ====================== */
+.top-icon,
+.icon{
+    padding: 10px;
+}
+
+.icon svg{
+    padding: 20px;
+}
+
+/* ==================== LEFT CENTER DIRECTIONS ====================== */
+
+
+.container-direction{
+    display: flex;
+    align-items: center;
+}
+
+.container-icon{
+    width: auto;
+    height: auto;
+}
+
+.container-icon i{
+    padding: 10px;
+}
+
+.left-link-txt{
+    color: var(--color-white);
+    font-size: var(--font-16);
+}
